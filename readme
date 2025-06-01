@@ -1,0 +1,58 @@
+procsight-backend/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── procsight/
+│   │   │           ├── ProcSightApplication.java
+│   │   │           ├── config/
+│   │   │           │   ├── FirebaseConfig.java
+│   │   │           │   ├── SecurityConfig.java
+│   │   │           │   ├── DatabaseConfig.java
+│   │   │           │   └── CorsConfig.java
+│   │   │           ├── controllers/
+│   │   │           │   ├── AuthController.java
+│   │   │           │   ├── UserController.java
+│   │   │           │   ├── CompanyController.java
+│   │   │           │   ├── InvoiceController.java
+│   │   │           │   └── AnalyticsController.java
+│   │   │           ├── services/
+│   │   │           │   ├── FirebaseAuthService.java
+│   │   │           │   ├── UserService.java
+│   │   │           │   ├── CompanyService.java
+│   │   │           │   ├── InvoiceService.java
+│   │   │           │   ├── AIProcessingService.java
+│   │   │           │   └── AnalyticsService.java
+│   │   │           ├── repositories/
+│   │   │           │   ├── UserRepository.java
+│   │   │           │   ├── CompanyRepository.java
+│   │   │           │   ├── RoleRepository.java
+│   │   │           │   └── PermissionRepository.java
+│   │   │           ├── models/
+│   │   │           │   ├── User.java
+│   │   │           │   ├── Company.java
+│   │   │           │   ├── Role.java
+│   │   │           │   ├── Permission.java
+│   │   │           │   ├── Invoice.java
+│   │   │           │   ├── Vendor.java
+│   │   │           │   └── LineItem.java
+│   │   │           ├── dto/
+│   │   │           │   ├── UserDto.java
+│   │   │           │   ├── CompanyDto.java
+│   │   │           │   ├── InvoiceDto.java
+│   │   │           │   └── AnalyticsDto.java
+│   │   │           ├── exceptions/
+│   │   │           │   ├── GlobalExceptionHandler.java
+│   │   │           │   ├── UserNotFoundException.java
+│   │   │           │   └── UnauthorizedException.java
+│   │   │           └── utils/
+│   │   │               ├── DateUtils.java
+│   │   │               └── FileUtils.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── firebase-service-account.json
+│   └── test/
+├── bruno/
+├── docker/
+├── pom.xml
+└── README.md
